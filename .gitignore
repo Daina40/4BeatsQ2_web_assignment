@@ -1,0 +1,59 @@
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore build output directories
+/build/
+/out/
+
+# Ignore IDE-specific files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/target/
+
+/.vscode/
+/*.suo
+/*.user
+/*.userosscache
+/*.sln.docstates
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore ChromeDriver executable (if stored locally)
+chromedriver.exe
+
+# Ignore temporary files created by editors or operating systems
+*~
+*.swp
+
+# Ignore Java JUnit test reports and temporary files
+/test-output/
+/allure-results/
+/test-results/
+/target/surefire-reports/
+
+# Ignore Allure report files (if using Allure)
+allure-results/
+allure-report/
+
+# Ignore Eclipse-specific files
+/.settings/
+/.classpath
+/.project
+/.idea/
+/*.iml
+
+# Ignore Maven wrapper files
+/.mvn/wrapper/maven-wrapper.jar
